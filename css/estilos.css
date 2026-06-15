@@ -59,7 +59,7 @@ header p {
     margin-top: 0.5rem;
 }
 main {
-    padding: 2.5rem 0;
+    padding: 2.5rem 1rem;
 }
 .hero{
     padding : 3rem 2rem;
@@ -84,6 +84,8 @@ section {
     background: linear-gradient(135deg, #ef2929, #950404);
     border-radius: 10px;
     margin-bottom: 1.5rem;
+    padding: 1rem;
+    text-align: center;
 }
 section h2 {
     font-size: 1.5em;
@@ -110,4 +112,29 @@ footer {
 footer p {
     color: #fff;
     font-size: 0.8rem;
+}
+.grid-obras {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0.5rem;
+}
+.tarjeta {
+    background-color: #ffffffb4;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.tarjeta img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+iframe  {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
 }
